@@ -22,35 +22,44 @@
 
         <!--Custom styles-->
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <!--<link rel="stylesheet" href="./css/styles.css">-->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
-<!--Шапка сайта-->
-
+<!--Шапка сайту-->
 <header class="header">
-    <div class="container header-container">
-    <a class="logo" href="./index.html" lang="en"><span class="accent">Web</span>Studio</a>
-    <nav class="nav">
-    <ul class="list">
-        <li class="item" > <a class="link" href="./index.html" >Студия</a></li>
-        <li class="item" > <a class="link current" href="#">Портфолио</a></li>
-        <li class="item" > <a class="link" href="#">Контакты</a></li>
-    </ul>
-    </nav>
-    <div class="contact">
-    <ul class="list">
-        <li class="item"><a class="link current" href="mailto:info@devstudio.com"><svg class="icon" width="16" height="12">
-                    <use href="./images/sprite.svg#envelope"></use>
-                </svg>info@devstudio.com</a></li>
-        <li class="item"><a class="link" href="tel:+380961111111 "><svg class="icon" width="10" height="16">
-                    <use href="./images/sprite.svg#smartphone"></use>
-                </svg>+38 096 111 11 11</a>
-        </li>
-    </ul>
+    <div class="container header__container">
+        <a class="logo header__logo" href="./index.html" lang="en"><span
+                class="header__logo--accent">Web</span>Studio</a>
+
+        <!--Якорні посилання-->
+
+        <nav class="navigation">
+            <ul class="navigation__list list">
+                <li class="navigation__item"> <a class="link navigation__link" href="./index.html">Студия</a></li>
+                <li class="navigation__item"> <a class="link navigation__link current" href="#">Портфолио</a>
+                </li>
+                <li class="navigation__item"> <a class="link navigation__link" href="#">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__group">
+            <ul class="list header__list">
+                <li class="header__item"><a class="link header__link current" href="mailto:info@devstudio.com"><svg
+                            class="header__icon" width="16" height="12">
+                            <use href="./images/sprite.svg#envelope"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="header__item"><a class="link header__link" href="tel:+380961111111 "><svg
+                            class="header__icon" width="10" height="16">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    </div>
-  </header>
+
+</header>
 
 <main>
 
@@ -66,8 +75,8 @@
         </ul>
     
         <h2 class="visually-hidden">Примеры работ</h2>
-        <ul class="work list">
-            <li class="item project">
+        <ul class="grid list">
+            <li class="project">
                 <a><div class="project-thumb">
                 <img src="./images/projects/project-1.jpg" 
                 alt="Фото трех сотрудников" 
@@ -87,7 +96,7 @@
                 </div>
                  </a>
                  </li>
-            <li class="item project">
+            <li class="project">
                 <a><div class="project-thumb">
                     <img src="./images/projects/project-2.jpg" 
                     alt="Постер два футболиста" 
@@ -107,7 +116,7 @@
                 </div>
             </a>
             </li>
-            <li class="item project" >
+            <li class="project" >
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-3.jpg" alt="Название ресторана на рыбе" width="370" height="294">
                 <div class="project-overlay">
@@ -125,7 +134,7 @@
                 </div>
                 </a>
             </li>
-            <li class="item project" >
+            <li class="project" >
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-4.jpg" alt="Наушники" width="370" height="294">
                 <div class="project-overlay">
@@ -143,7 +152,7 @@
                 </div>
                 </a>
             </li>
-            <li class="item project">
+            <li class="project">
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-5.jpg" alt="Две коробки" width="370" height="294">
                 <div class="project-overlay">
@@ -162,7 +171,7 @@
                 </a>
             </li>
         
-            <li class="item project">
+            <li class="project">
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-6.jpg" alt="Монитор" width="370" height="294">
                 <div class="project-overlay">
@@ -180,7 +189,7 @@
                 </div>
                 </a>
             </li>
-            <li class="item project">
+            <li class="project">
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-7.jpg" alt="Журнал" width="370" height="294">
                 <div class="project-overlay">
@@ -198,7 +207,7 @@
                 </div>
                 </a>
             </li>
-            <li class="item project">
+            <li class="project">
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-8.jpg" alt="Рекламная надпись" width="370" height="294">
                 <div class="project-overlay">
@@ -216,7 +225,7 @@
                 </div>
                 </a>
             </li>
-            <li class="item project">
+            <li class="project">
                 <a> <div class="project-thumb">
                     <img src="./images/projects/project-9.jpg" 
                     alt="Ноутбук" width="370" height="294">
